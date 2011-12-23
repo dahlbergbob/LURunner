@@ -1,4 +1,4 @@
-package com.boblu.test.runner
+package com.boblu.lurunner.runner
 {
 	
 	/**

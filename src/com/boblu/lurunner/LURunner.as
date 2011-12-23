@@ -1,12 +1,12 @@
-package com.boblu.test
+package com.boblu.lurunner
 {
-	import com.boblu.test.runner.List;
-	import com.boblu.test.runner.ui.Color;
-	import com.boblu.test.runner.ui.FailListItem;
-	import com.boblu.test.runner.ui.Header;
-	import com.boblu.test.runner.ui.IgnoreListItem;
-	import com.boblu.test.runner.ui.StatusBar;
-	import com.boblu.test.runner.ui.SuccessListItem;
+	import com.boblu.lurunner.runner.List;
+	import com.boblu.lurunner.runner.ui.Color;
+	import com.boblu.lurunner.runner.ui.FailListItem;
+	import com.boblu.lurunner.runner.ui.Header;
+	import com.boblu.lurunner.runner.ui.IgnoreListItem;
+	import com.boblu.lurunner.runner.ui.StatusBar;
+	import com.boblu.lurunner.runner.ui.SuccessListItem;
 	import flash.display.DisplayObject;
 	import flash.display.Sprite;
 	import flash.events.Event;

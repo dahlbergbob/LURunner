@@ -1,6 +1,6 @@
-package com.boblu.test.runner
+package com.boblu.lurunner.runner
 {
-	import com.boblu.test.runner.ui.ListItem;
+	import com.boblu.lurunner.runner.ui.ListItem;
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
 	import flash.display.Sprite;

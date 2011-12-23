@@ -1,4 +1,4 @@
-package com.boblu.test 
+package com.boblu.lurunner 
 {
 	/**
 	 * Parses a qualified name of a function into separate parts

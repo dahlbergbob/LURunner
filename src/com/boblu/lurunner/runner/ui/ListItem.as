@@ -1,6 +1,6 @@
-package com.boblu.test.runner.ui 
+package com.boblu.lurunner.runner.ui 
 {
-	import com.boblu.test.ClassDescriptor;
+	import com.boblu.lurunner.ClassDescriptor;
 	import flash.display.DisplayObject;
 	import flash.display.Graphics;
 	import flash.display.IBitmapDrawable;

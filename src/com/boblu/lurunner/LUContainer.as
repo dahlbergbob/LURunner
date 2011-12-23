@@ -1,4 +1,4 @@
-package com.boblu.test 
+package com.boblu.lurunner 
 {
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
