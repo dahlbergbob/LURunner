@@ -4,7 +4,7 @@
 	<taskdef resource="flexTasks.tasks" classpath="${flex.task}"/>
 	
 	<target name="debug" description="Build testrunner lib for debugging">
-		<compc output="bin/LURunner-debug.swc" include-classes="com.boblu.test.LURunner com.boblu.test.LUContainer" target-player="${player.version}">
+		<compc output="bin/LURunner-debug.swc" include-classes="com.boblu.lurunner.LURunner com.boblu.lurunner.LUContainer" target-player="${player.version}">
 			<source-path path-element="${basedir}/src" />
 			<compiler.external-library-path dir="lib">
 				<include name="flexunit-4.0.0.swc" />
@@ -20,7 +20,7 @@
 	
 	<target name="release" description="Build testrunner lib">
 		<input message="Set the current build version:" defaultvalue="debug" addproperty="version" />
-		<compc output="bin/LURunner-${version}.swc" include-classes="com.boblu.test.LURunner com.boblu.test.LUContainer" target-player="${player.version}">
+		<compc output="bin/LURunner-${version}.swc" include-classes="com.boblu.lurunner.LURunner com.boblu.lurunner.LUContainer" target-player="${player.version}">
 			<source-path path-element="${basedir}/src" />
 			<compiler.external-library-path dir="lib">
 				<include name="flexunit-4.0.0.swc" />
